@@ -11,7 +11,7 @@ from xgboost import XGBClassifier
 # ────────────────────────────────────────────────────────────────
 # CONFIG
 # ────────────────────────────────────────────────────────────────
-DATA_PATH = r'C:\Users\USER\Downloads\python script\APPENDICITS DATALAB TASK\cleaned_data.csv'          
+DATA_PATH = 'cleaned_data.csv'          
 st.set_page_config(
     page_title="Appendicitis Prediction Tool",
     page_icon="🩺",
@@ -347,4 +347,5 @@ with st.expander("Detailed probabilities – all classes", expanded=False):
 # ────────────────────────────────────────────────────────────────
 st.markdown("---")
 st.caption("XGBoost • SMOTE • StandardScaler • Multi-target prediction • Clinical use requires validation")
+
 st.caption ("Developed by Vicrise Healthtech Consult• © 2025 All rights reserved.")
